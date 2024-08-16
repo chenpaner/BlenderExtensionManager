@@ -50,7 +50,7 @@ class Blender():
 
     @staticmethod
     def db_path() -> Path:
-        return get_bme_db().joinpath('blender.db')
+        return get_bme_db().joinpath('blender.db')#
 
     def save_to_db(self):
         """Save or update the record in blenders table."""
